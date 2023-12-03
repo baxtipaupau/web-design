@@ -40,6 +40,7 @@ body{
 }
 
 
+
 .nav-ul a{
     text-decoration: none;
     color: white;
@@ -392,6 +393,7 @@ body{
 
 .footer1{
     line-height: 40px;
+    margin-top: 120px;
 }
 
 .logo-footer{
@@ -431,9 +433,14 @@ body{
     padding-right: 50px;
 }
 
+.sos{
+    margin-top: 15px;
+}
+
 .ul-footer{
     list-style: none;
     max-width: 200px;
+    margin-top: 100px;
 }
 
 .ul-footer a{
@@ -442,4 +449,27 @@ body{
     font-size: 18px;
     line-height: 40px;
     color: rgba(255, 255, 255, 0.80);
+}
+
+.footer-end{
+    max-width: 1400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.footer-endp{
+    padding-right: 300px;
+}
+
+.footer-end2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-end p{
+    color: rgba(255, 255, 255, 0.80);
+    padding-left: 53px;
 }
